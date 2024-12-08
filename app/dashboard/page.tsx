@@ -1,9 +1,3 @@
-import React from "react";
-
-export interface DashBoardPageProps {
-  classname?: string;
-}
-
-export default function DashBoardPage({}: DashBoardPageProps) {
+export default function DashBoardPage() {
   return <div>Dashboard Page</div>;
 }
