@@ -1,9 +1,3 @@
-import React from "react";
-
-export interface InvoicesPageProps {
-  classname?: string;
-}
-
-export default function InvoicesPage({}: InvoicesPageProps) {
+export default function InvoicesPage() {
   return <div>Invoices Page</div>;
 }
